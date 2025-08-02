@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude specific files or directories that should not be backed up.
+         While fullBackupContent="true" is the default behavior, you can use this
+         to exclude specific files or directories from backup. -->
+</full-backup-content> 

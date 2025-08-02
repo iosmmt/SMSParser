@@ -1,0 +1,47 @@
+=== GitHub上传快速清单 ===
+
+第一步：创建仓库
+□ 访问 https://github.com
+□ 点击右上角 "+" → "New repository"
+□ 仓库名：SMSParser
+□ 描述：Android短信解析器应用
+□ 选择 Public
+□ 不要勾选任何选项
+□ 点击 "Create repository"
+
+第二步：上传文件
+□ 点击 "uploading an existing file"
+□ 拖拽以下文件到上传区域：
+
+【必需文件】
+□ app/ 文件夹
+□ gradle/ 文件夹  
+□ .github/ 文件夹
+□ build.gradle
+□ settings.gradle
+□ gradle.properties
+□ gradlew
+□ gradlew.bat
+□ README.md
+
+【可选文件】
+□ build-*.bat 文件
+□ 如何构建APK.md
+□ 上传到GitHub指南.md
+
+□ 填写提交信息：Initial commit: 短信解析器Android应用
+□ 点击 "Commit changes"
+
+第三步：触发构建
+□ 点击 "Actions" 标签
+□ 点击 "Build APK" 工作流
+□ 点击 "Run workflow"
+□ 选择 main 分支
+□ 点击 "Run workflow"
+
+第四步：下载APK
+□ 等待构建完成（5-10分钟）
+□ 点击成功的构建记录
+□ 在 Artifacts 部分下载 app-debug
+
+=== 完成！=== 
